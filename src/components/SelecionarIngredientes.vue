@@ -1,6 +1,6 @@
 <script lang="ts">
-import { obterCategorias } from "@/http/index";
-import type ICategoria from "@/interfaces/ICategorias";
+import { obterCategorias } from "../http/index";
+import type ICategoria from "../interfaces/ICategorias";
 import CardCategoria from "./CardCategoria.vue";
 import MainButton from "./MainButton.vue";
 

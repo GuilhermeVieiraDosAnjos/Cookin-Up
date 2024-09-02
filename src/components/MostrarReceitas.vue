@@ -1,10 +1,10 @@
 <script lang="ts">
-import { obterReceitas } from '@/http';
-import type IReceita from '@/interfaces/IReceitas';
+import { obterReceitas } from '../http/index';
+import type IReceita from '../interfaces/IReceitas';
 import MainButton from './MainButton.vue';
 import CardReceita from './CardReceita.vue';
 import type { PropType } from 'vue';
-import { intesLista1EstaoEmLista2 } from '@/operacoes/listas';
+import { intesLista1EstaoEmLista2 } from '../operacoes/listas';
 
 
 export default {
